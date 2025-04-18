@@ -15,5 +15,11 @@
 
     <dependencies>
         <!-- Add your dependencies here -->
+          <dependency>
+           <groupId>jakarta.servlet</groupId>
+           <artifactId>jakarta.servlet-api</artifactId>
+           <version>5.0.0</version> <!-- Adjust version as necessary -->
+           <scope>provided</scope> <!-- Scope is provided because it's usually provided by the servlet container (like Tomcat) -->
+          </dependency>
     </dependencies>
 </project>
