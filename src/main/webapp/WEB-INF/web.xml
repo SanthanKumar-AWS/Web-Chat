@@ -9,6 +9,10 @@
     <welcome-file>default.jsp</welcome-file>
     <welcome-file>default.htm</welcome-file>
   </welcome-file-list>
+@WebServlet("/chat")
+public class GetChatServlet extends HttpServlet {
+    // Servlet code here
+
 
    <servlet>
  	<servlet-name>jsp_signup</servlet-name>
@@ -119,6 +123,7 @@
   	<servlet-name>logout</servlet-name>
   	<servlet-class>mypackage.LogoutServlet</servlet-class>
   </servlet>
+}
   <servlet-mapping>
   	<servlet-name>logout</servlet-name>
   	<url-pattern>/logout</url-pattern>
