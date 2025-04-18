@@ -29,8 +29,6 @@
     </plugin>
   </plugins>
 </build>
-<mainClass>mypackage.MainApp</mainClass>
-         <packaging>war</packaging>
     <dependencies>
         <!-- Add your dependencies here -->
           <dependency>
